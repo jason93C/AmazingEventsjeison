@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    min-height: 10%;
+    display: flex;
+    justify-content: space-around;
+    border-radius:  black solid 2px;
+    width: 100%;
+    background-color:rgb(204, 197, 197);
+}
+.brand{
+    height: 9vh;
+}
+
+
+main{
+    height: 85%;
+}
+
+
+
+#carouselExample{
+    height: 7vh;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+}
+
+img{
+    height: 15vh;
+}
+
+.widthcard{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap:wrap;
+    font-size: 1%;
+}
+
+
+
+.check{
+    margin: 2vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+
+footer{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:25px;
+}
+
+.Rights{
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+.social{
+    height:5vh;
+}
